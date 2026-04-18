@@ -19,6 +19,12 @@
 - 고객 개인정보 포함 금지
 - 가격/할인 정보 임의 생성 금지
 
+## Codex 레포 규칙 로딩
+
+- Codex는 세션 시작 시 `AGENTS.md`만 보지 말고 `CLAUDE.md`도 함께 읽는다.
+- 이 레포의 역할, 세션 루틴, 금지사항, 구조 규칙은 `CLAUDE.md` 본문과 함께 해석한다.
+- `AGENTS.md`는 Codex 진입점, `CLAUDE.md`는 프로젝트 규칙 본문으로 취급한다.
+
 ## Claude/Codex 공통 운영
 
 - 이 레포는 `Claude Code`와 `Codex`를 동일한 절차로 운영한다.
